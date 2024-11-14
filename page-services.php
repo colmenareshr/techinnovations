@@ -4,7 +4,7 @@ get_header();
 ?>
 
 <main class="py-1">
-  <div class="max-w-full mx-auto">
+  <div class="max-w-7xl mx-auto py-5">
     <!-- Hero Section -->
     <section class="bg-gray-50 py-16 px-6 md:px-12 lg:flex lg:items-center lg:justify-between">
       <div class="text-center lg:text-left lg:max-w-lg">
