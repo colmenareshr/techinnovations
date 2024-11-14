@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*
+Theme Name: TechInnovations
+Theme URI: https://github.com/colmenareshr/techinnovations
+Author: Humberto Colmenares
+Author URI: https://colmenadev.com/
+Description: Um tema personalizado para a TechInnovations, uma startup de consultoria e desenvolvimento de software. Este tema oferece um design limpo e profissional com foco em desempenho e SEO.
+Version: 1.0.0
+Requires at least: 5.7
+Tested up to: 6.2
+Requires PHP: 7.4
+Text Domain: techinnovations
+*/
 
 @tailwind base;
 @tailwind components;
