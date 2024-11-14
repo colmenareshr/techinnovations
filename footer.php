@@ -2,7 +2,7 @@
 <footer class="bg-gray-100 py-8 px-4 mt-10 text-center md:text-left">
   <div class="container mx-auto space-y-6 md:flex md:justify-between md:items-center">
     <!-- Texto de copyright -->
-    <p class="text-gray-600 text-sm">© <?php echo date('Y'); ?> Globex Corporation</p>
+    <p class="text-gray-600 text-sm">© <?php echo date('Y'); ?> Tech Innovations</p>
 
     <!-- Links de navegação -->
     <div class="flex space-x-6 justify-center">
