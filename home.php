@@ -1,5 +1,4 @@
 <?php
-/* Template Name: Blog Page */
 get_header();
 ?>
 
