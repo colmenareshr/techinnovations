@@ -17,44 +17,44 @@ Text Domain: techinnovations
 
 @layer base {
   h1 {
-    @apply text-3xl md:text-4xl
+    @apply text-3xl md:text-4xl;
   }
 
   h2 {
-    @apply text-2xl md:text-3xl
+    @apply text-2xl md:text-3xl;
   }
 
   h3 {
-    @apply text-xl md:text-2xl
+    @apply text-xl md:text-2xl;
   }
 
   p {
-    @apply text-base md:text-lg
+    @apply text-base md:text-lg;
   }
 }
 
-/* Estilos para los campos de entrada de Contact Form 7 */
+/* Estilos para campos de entrada do Formulário de Contato 7 */
 .form-input {
   width: 100%;
   padding: 12px 16px;
   margin-bottom: 16px;
-  border: 1px solid #d1d5db; /* Borde gris claro */
-  border-radius: 0.375rem; /* Border-radius para un aspecto redondeado */
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
   font-size: 1rem;
-  color: #4a4a4a; /* Color de texto gris oscuro */
+  color: #4a4a4a; /* Cor do texto em cinza escuro */
   outline: none;
 }
 
 .form-input:focus {
-  border-color: #3b82f6; /* Color de borde al hacer foco */
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); /* Sombra azul clara al hacer foco */
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
 }
 
-/* Estilo para el botón de envío */
+/* Estilo do botão enviar */
 .wpcf7-submit {
   display: inline-block;
-  background-color: #3b82f6; /* Azul primario */
-  color: #fff; /* Texto blanco */
+  background-color: #3b82f6;
+  color: #fff;
   padding: 12px 24px;
   font-size: 1rem;
   border-radius: 0.375rem;
@@ -64,5 +64,5 @@ Text Domain: techinnovations
 }
 
 .wpcf7-submit:hover {
-  background-color: #2563eb; /* Azul más oscuro al pasar el ratón */
+  background-color: #2563eb; /* Azul mais escuro ao passar o mouse */
 }

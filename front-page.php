@@ -51,10 +51,10 @@ get_header();
   </div>
   <div class="mt-10 grid gap-8 md:grid-cols-3">
     <?php
-      // Configuración de la consulta para obtener posts de la categoría "projetos"
+      // Configurando a consulta para obter posts da categoria "projetos"
       $args = array(
-        'category_name' => 'projetos', // Slug de la categoría "projetos"
-        'posts_per_page' => 3, // Número de posts a mostrar
+        'category_name' => 'projetos', // Slug da categoria "projetos"
+        'posts_per_page' => 3, //Número de postagens a serem exibidas
       );
       $projetos_query = new WP_Query($args);
 
@@ -64,15 +64,15 @@ get_header();
     ?>
           <div class="bg-white p-6 rounded-lg shadow-md">
             <a href="<?php the_permalink(); ?>">
-              <!-- Imagen destacada -->
+              <!-- Imagem em destaque -->
               <?php if (has_post_thumbnail()) : ?>
                 <img src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title(); ?>" class="w-full h-48 object-cover rounded-md mb-4">
               <?php endif; ?>
 
-              <!-- Título del post -->
+              <!-- Título da postagem -->
               <h3 class="text-lg font-semibold text-gray-800"><?php the_title(); ?></h3>
 
-              <!-- Extracto del post -->
+              <!-- Trecho da postagem -->
               <p class="text-gray-600 mt-2"><?php echo wp_trim_words(get_the_excerpt(), 15); ?></p>
             </a>
             <!-- Botón de Leer Más -->
@@ -132,10 +132,9 @@ get_header();
   <!-- Seção de Newsletter -->
     <section class="py-16 bg-gray-100 px-6 md:px-12 text-center">
       <h2 class="text-2xl font-bold text-gray-800 md:text-3xl">Vamos Construir Seu Próximo Projeto</h2>
-      <form class="mt-6 max-w-md mx-auto flex items-center">
-        <input type="email" placeholder="Seu e-mail" class="w-full border rounded-l px-4 py-2 focus:outline-none">
-        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-r hover:bg-blue-700">Iniciar</button>
-      </form>
+      <a href="<?php echo esc_url(get_permalink(get_page_by_path('contato'))); ?>" class="mt-6 inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700">
+      Agora é a hora
+      </a>
     </section>
   </div>
 </main>
