@@ -6,14 +6,15 @@ Este é um site WordPress da TechInnovations, uma startup fictícia de desenvolv
 
 1. Clone este repositório em seu ambiente WordPress local ou baixe o arquivo .zip e carregue-o em **Aparência > Temas**.
 2. Ative o tema infantil 'techinnovations'.
-3. Importe o arquivo XML (`techinnovations.xml`) fornecido para obter o conteúdo de amostra (está localizado nos arquivos do tema):
-   - Vá em **Ferramentas > Importar**
-   - Carregue o arquivo `techinnovations.xml`
-4. Ative os seguintes plug-ins:
+3. Ative os seguintes plug-ins:
    - Yoast SEO
    - Contact Form 7
    - WP Optimize
    - Secure Custom Fields
+4. Importe o arquivo XML (`techinnovations.xml`) fornecido para obter o conteúdo de amostra (está localizado nos arquivos do tema):
+   - Vá em **Ferramentas > Importar**
+   - Carregue o arquivo `techinnovations.xml`
+
 
 ## Personalização feita
 
