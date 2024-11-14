@@ -666,6 +666,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -776,6 +780,18 @@ video {
 
 .max-w-md{
   max-width: 28rem;
+}
+
+.max-w-7xl{
+  max-width: 80rem;
+}
+
+.max-w-xl{
+  max-width: 36rem;
+}
+
+.max-w-4{
+  max-width: 1rem;
 }
 
 .grid-cols-1{
@@ -1318,6 +1334,10 @@ header,
 
   .lg\:justify-between{
     justify-content: space-between;
+  }
+
+  .lg\:justify-evenly{
+    justify-content: space-evenly;
   }
 
   .lg\:p-10{
