@@ -11,13 +11,13 @@ get_header();
     
     <!-- Hero Section -->
 <section class="bg-white py-16 lg:flex lg:items-center lg:justify-between">
-  <div class="text-center lg:text-left lg:max-w-lg">
+  <div class="text-center lg:text-left lg:max-w-lg lg:p-10">
     <h1 class="text-3xl font-bold text-gray-800 md:text-4xl lg:text-5xl">
       Sobre Nós
     </h1>
     <p class="mt-4 text-gray-600">Bem-vindo ao nosso serviço de desenvolvimento de software personalizado, feito para atender todas as suas necessidades.</p>
   </div>
-  <div class="mt-8 lg:mt-0 lg:ml-8">
+  <div class="mt-8 lg:mt-0 lg:ml-8 lg:p-10">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/consultora-software.jpg" alt="Imagem de Especialista" class="w-full max-w-md lg:max-w-lg rounded-lg shadow-lg mx-auto lg:mx-0">
   </div>
 </section>
@@ -29,10 +29,10 @@ get_header();
         <div class="mt-8 lg:mt-0 lg:p-10">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/software-team.jpg" alt="Nossa História" class="w-full rounded-lg shadow-lg">
         </div>
-        <div>
+        <div class="lg:p-10">
           <h2 class="text-4xl font-bold text-gray-800">Nossa História</h2>
           <p class="mt-4 text-gray-600">
-            Fundada em 2020, nossa empresa tem se dedicado a fornecer soluções tecnológicas que se adaptam à evolução das necessidades do mercado. Com mais de [anos de experiência] no setor, entregamos projetos de software de alta qualidade e estamos prontos para enfrentar novos desafios.
+            Fundada em 2020, nossa empresa tem se dedicado a fornecer soluções tecnológicas que se adaptam à evolução das necessidades do mercado. Com mais de 4 no setor, entregamos projetos de software de alta qualidade e estamos prontos para enfrentar novos desafios.
           </p>
           <ul class="mt-6 space-y-4">
             <li class="flex items-center text-gray-600">
@@ -52,7 +52,7 @@ get_header();
         <div class="order-2 lg:order-1 lg:p-10">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-developer.jpg" alt="Nossa Visão" class="w-full rounded-lg shadow-lg">
         </div>
-        <div class="order-1 lg:order-2">
+        <div class="order-1 lg:order-2 lg:p-10">
           <h3 class="text-xl font-light uppercase text-gray-800">Nossa Visão</h3>
           <h2 class="text-4xl font-bold text-gray-800">Mantenha-se atualizado com as últimas tecnologias e tendências do setor</h2>
           <p class="mt-4 text-gray-600">
@@ -72,8 +72,8 @@ get_header();
 
     <!-- Nossos Habilidades -->
     <section class="py-16">
-      <h2 class="text-2xl font-semibold text-gray-800 text-center">Nossas Habilidades e Experiência</h2>
-      <div class="grid gap-8 mt-8 lg:grid-cols-2 items-center">
+      <h2 class="text-4xl font-bold text-gray-800 text-center">Nossas Habilidades e Experiência</h2>
+      <div class="grid gap-8 mt-8 lg:grid-cols-2 lg:p-10 items-center">
         <div>
           <p class="text-gray-600">
             Nossa equipe é composta por especialistas em desenvolvimento de software personalizados, prontos para entregar projetos de alta qualidade que se adaptam às necessidades específicas de cada cliente.
@@ -105,21 +105,35 @@ get_header();
 
     <!-- Nossa Equipe -->
     <section class="py-16 bg-gray-100 rounded-lg">
-      <h2 class="text-2xl font-semibold text-gray-800 text-center">Nossa Equipe</h2>
-      <div class="mt-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3 text-center">
-        <!-- Card de Membro do Time -->
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-member1.jpg" alt="Nome do Membro" class="w-full h-48 object-cover rounded-md mb-4">
-          <h3 class="text-lg font-semibold text-gray-800">Nome do Líder</h3>
-          <p class="text-gray-600">Cargo do Líder</p>
-        </div>
-        <!-- Adicione mais membros conforme necessário -->
-      </div>
+      <h2 class="text-4xl font-bold text-gray-800 text-center">Nossa Equipe</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-6 md:p-10 mt-10">
+  <!-- Card 1: Diretor de Tecnologia -->
+  <div class="bg-white p-6 rounded-lg shadow-md text-center">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-member1.jpg" alt="Lucas Silva" class="w-24 h-24 mx-auto object-cover rounded-full mb-4">
+    <h3 class="text-lg font-semibold text-gray-800">Lucas Silva</h3>
+    <p class="text-gray-600">Diretor de Tecnologia</p>
+  </div>
+
+  <!-- Card 2: Gerente de Produto -->
+  <div class="bg-white p-6 rounded-lg shadow-md text-center">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-member2.jpg" alt="Mariana Souza" class="w-24 h-24 mx-auto object-cover rounded-full mb-4">
+    <h3 class="text-lg font-semibold text-gray-800">Mariana Souza</h3>
+    <p class="text-gray-600">Gerente de Produto</p>
+  </div>
+
+  <!-- Card 3: Engenheiro de Software Sênior -->
+  <div class="bg-white p-6 rounded-lg shadow-md text-center">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-member3.jpg" alt="Carlos Oliveira" class="w-24 h-24 mx-auto object-cover rounded-full mb-4">
+    <h3 class="text-lg font-semibold text-gray-800">Carlos Oliveira</h3>
+    <p class="text-gray-600">Engenheiro de Software Sênior</p>
+  </div>
+</div>
+
     </section>
 
     <!-- CTA - Contato -->
     <section class="py-16 text-center bg-blue-600 text-white rounded-lg mt-8">
-      <h2 class="text-2xl font-semibold">Pronto para Conversar?</h2>
+      <h2 class="text-4xl font-bold">Pronto para Conversar?</h2>
       <p class="mt-4 max-w-2xl mx-auto">
         Estamos prontos para transformar suas ideias em realidade. Entre em contato conosco para uma consulta e saiba como podemos ajudar.
       </p>

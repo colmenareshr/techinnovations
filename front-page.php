@@ -4,9 +4,9 @@ get_header();
 ?>
 
 <main class="py-1">
-  <div class="max-w-full mx-auto">
+  <div class="max-w-7xl mx-auto">
     <!-- Hero Section -->
-  <section class="bg-gray-50 py-16 px-6 md:px-12 lg:flex lg:items-center lg:justify-between">
+  <section class="bg-gray-100 mt-5 py-16 px-6 md:px-12 lg:flex lg:items-center lg:justify-evenly">
     <div class="text-center lg:text-left lg:max-w-lg">
       <h1 class="text-3xl font-bold text-gray-800 md:text-4xl lg:text-5xl">
         Especialistas em Fornecimento de Soluções de Software Personalizadas
@@ -17,14 +17,14 @@ get_header();
       </a>
     </div>
     <div class="mt-8 lg:mt-0 lg:ml-8">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/software-developer.jpg" alt="Imagem de Especialista" class="w-full max-w-md lg:max-w-lg rounded-lg shadow-lg mx-auto lg:mx-0">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/software-developer1.jpg" alt="Imagem de Especialista" class="w-full max-w-md lg:max-w-lg rounded-lg shadow-lg mx-auto lg:mx-0">
     </div>
   </section>
 
 <!-- Seção de Serviços -->
 <section class="py-16 px-6 md:px-12">
-  <div class="text-center">
-    <h2 class="text-2xl font-bold text-gray-800 md:text-3xl">Bem-vindo aos Nossos Serviços de Desenvolvimento de Software Personalizado</h2>
+  <div class="max-w-4xl m-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-800 md:text-4xl">Bem-vindo aos Nossos Serviços de Desenvolvimento de Software Personalizado</h2>
     <p class="mt-2 text-gray-600">Oferecemos soluções completas para dar vida às suas ideias.</p>
   </div>
   <div class="mt-10 grid gap-8 md:grid-cols-3">
@@ -43,74 +43,8 @@ get_header();
   </div>
 </section>
 
-<!-- Seção de Avaliações -->
-<section class="py-16 bg-gray-50 px-6 md:px-12">
-  <div class="text-center">
-    <h2 class="text-2xl font-bold text-gray-800 md:text-3xl">O que nossos clientes dizem</h2>
-  </div>
-  <div class="mt-10 grid gap-8 md:grid-cols-3">
-    <div class="bg-white p-6 rounded-lg shadow-md">
-      <p class="text-gray-600">“A equipe da Globex superou nossas expectativas com seu profissionalismo e abordagem orientada a resultados.”</p>
-      <div class="mt-4 flex items-center">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client1.jpg" alt="Alice Johnson" class="w-10 h-10 rounded-full mr-4">
-        <div>
-          <h4 class="text-gray-800 font-semibold">Alice Johnson</h4>
-          <p class="text-gray-500 text-sm">Jan 12, 2021</p>
-        </div>
-      </div>
-    </div>
-    <div class="bg-white p-6 rounded-lg shadow-md">
-      <p class="text-gray-600">“Trabalhar com a Globex foi um divisor de águas para o nosso negócio. Altamente recomendado!”</p>
-      <div class="mt-4 flex items-center">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client2.jpg" alt="David Smith" class="w-10 h-10 rounded-full mr-4">
-        <div>
-          <h4 class="text-gray-800 font-semibold">David Smith</h4>
-          <p class="text-gray-500 text-sm">Aug 24, 2021</p>
-        </div>
-      </div>
-    </div>
-    <div class="bg-white p-6 rounded-lg shadow-md">
-      <p class="text-gray-600">“Impressionado com a qualidade e a dedicação da equipe da Globex. Eles realmente se importam com os clientes.”</p>
-      <div class="mt-4 flex items-center">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client3.jpg" alt="Emily Davis" class="w-10 h-10 rounded-full mr-4">
-        <div>
-          <h4 class="text-gray-800 font-semibold">Emily Davis</h4>
-          <p class="text-gray-500 text-sm">Dec 05, 2021</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Seção de Preços -->
-<section class="py-16 px-6 md:px-12">
-  <div class="text-center">
-    <h2 class="text-2xl font-bold text-gray-800 md:text-3xl">Planos de Preços</h2>
-  </div>
-  <div class="mt-10 grid gap-8 md:grid-cols-3">
-    <div class="bg-white p-6 rounded-lg shadow-md text-center">
-      <h3 class="text-xl font-semibold text-gray-800">Básico</h3>
-      <p class="text-3xl font-bold mt-4">$999</p>
-      <p class="text-gray-600">por mês</p>
-      <a href="#" class="mt-6 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded hover:bg-blue-700">Escolher Básico</a>
-    </div>
-    <div class="bg-white p-6 rounded-lg shadow-md text-center border-2 border-blue-600">
-      <h3 class="text-xl font-semibold text-gray-800">Padrão</h3>
-      <p class="text-3xl font-bold mt-4">$2999</p>
-      <p class="text-gray-600">por mês</p>
-      <a href="#" class="mt-6 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded hover:bg-blue-700">Escolher Padrão</a>
-    </div>
-    <div class="bg-white p-6 rounded-lg shadow-md text-center">
-      <h3 class="text-xl font-semibold text-gray-800">Premium</h3>
-      <p class="text-3xl font-bold mt-4">$4999</p>
-      <p class="text-gray-600">por mês</p>
-      <a href="#" class="mt-6 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded hover:bg-blue-700">Escolher Premium</a>
-    </div>
-  </div>
-</section>
-
 <!-- Seção de Projetos -->
-<section class="py-16 px-6 md:px-12">
+<section class="py-16 px-6 md:px-12 bg-gray-100">
   <div class="text-center">
     <h2 class="text-2xl font-bold text-gray-800 md:text-3xl">Nossos Projetos</h2>
     <p class="mt-2 text-gray-600">Confira alguns dos nossos projetos recentes</p>
@@ -156,9 +90,47 @@ get_header();
   </div>
 </section>
 
+<!-- Seção de Avaliações -->
+<section class="py-16  px-6 md:px-12">
+  <div class="text-center">
+    <h2 class="text-3xl font-bold text-gray-800 md:text-4xl">O que nossos clientes dizem</h2>
+  </div>
+  <div class="mt-10 grid gap-8 md:grid-cols-3">
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <p class="text-gray-600">“A equipe da Tech Innovations superou nossas expectativas com seu profissionalismo e abordagem orientada a resultados.”</p>
+      <div class="mt-4 flex items-center">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client1.jpg" alt="Alice Johnson" class="w-10 h-10 rounded-full mr-4">
+        <div>
+          <h4 class="text-gray-800 font-semibold">Alice Johnson</h4>
+          <p class="text-gray-500 text-sm">Jan 12, 2021</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <p class="text-gray-600">“Trabalhar com a Tech Innovations foi um divisor de águas para o nosso negócio. Altamente recomendado!”</p>
+      <div class="mt-4 flex items-center">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client2.jpg" alt="David Smith" class="w-10 h-10 rounded-full mr-4">
+        <div>
+          <h4 class="text-gray-800 font-semibold">David Smith</h4>
+          <p class="text-gray-500 text-sm">Aug 24, 2021</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <p class="text-gray-600">“Impressionada com a qualidade e a dedicação da equipe da Tech Innovations. Eles realmente se importam com os clientes.”</p>
+      <div class="mt-4 flex items-center">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client3.jpg" alt="Emily Davis" class="w-10 h-10 rounded-full mr-4">
+        <div>
+          <h4 class="text-gray-800 font-semibold">Emily Davis</h4>
+          <p class="text-gray-500 text-sm">Dec 05, 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Seção de Newsletter -->
-    <section class="py-16 bg-gray-50 px-6 md:px-12 text-center">
+    <section class="py-16 bg-gray-100 px-6 md:px-12 text-center">
       <h2 class="text-2xl font-bold text-gray-800 md:text-3xl">Vamos Construir Seu Próximo Projeto</h2>
       <form class="mt-6 max-w-md mx-auto flex items-center">
         <input type="email" placeholder="Seu e-mail" class="w-full border rounded-l px-4 py-2 focus:outline-none">
