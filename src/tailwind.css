@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados para el header y admin bar */
+@layer components {
+  /* Header fijo y scroll */
+  .scroll-header {
+    @apply py-2 shadow-lg bg-opacity-95 backdrop-blur-sm;
+  }
+
+  /* Ajustes para admin bar */
+  .admin-bar-showing {
+    @apply top-8; /* equivalente a top-32px */
+  }
+  
+  .admin-bar-showing-menu {
+    @apply top-[104px];
+  }
+  
+  /* Espaciador */
+  .header-spacer {
+    @apply h-[72px];
+  }
+  
+  body.admin-bar .header-spacer {
+    @apply h-[104px];
+  }
+}
+
+/* Media queries y otros estilos específicos */
+@layer utilities {
+  @media screen and (max-width: 782px) {
+    .admin-bar-showing {
+      top: 46px;
+    }
+    
+    .admin-bar-showing-menu {
+      top: 118px;
+    }
+    
+    body.admin-bar .header-spacer {
+      height: 118px;
+    }
+  }
+
+  /* Optimizaciones de rendimiento */
+  .fixed {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  /* Transiciones */
+  html {
+    scroll-padding-top: var(--scroll-padding, 72px);
+  }
+
+  body.admin-bar html {
+    --scroll-padding: 104px;
+  }
+
+  @media screen and (max-width: 782px) {
+    body.admin-bar html {
+      --scroll-padding: 118px;
+    }
+  }
+
+  header,
+  #mobile-menu {
+    @apply transition-all duration-300;
+  }
+
+  /* Animaciones del menú móvil */
+  #mobile-menu {
+    @apply transition-opacity duration-300 ease-in-out;
+  }
+
+  #mobile-menu.hidden {
+    @apply opacity-0 pointer-events-none;
+  }
+
+  #mobile-menu:not(.hidden) {
+    @apply opacity-100 pointer-events-auto;
+  }
+}
