@@ -22,3 +22,16 @@ if (!function_exists('theme_setup')):
   }
 endif;
 add_action('after_setup_theme', 'theme_setup');
+
+function tech_innovations_images() {
+  // Habilitar imágenes destacadas
+  add_theme_support( 'post-thumbnails' );
+
+  // Crear tamaños personalizados
+  add_image_size( 'destacada-principal', 800, 600, true );
+  add_image_size( 'destacada-listado', 300, 200, true );
+
+  // Agregar título a la imagen destacada
+  add_post_type_support( 'post', 'title-tag' );
+}
+add_action( 'after_setup_theme', 'tech_innovations_images' );
