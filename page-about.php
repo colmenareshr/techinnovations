@@ -7,10 +7,10 @@ get_header();
 
 <!-- Página Sobre Nós -->
 <main class="px-4 lg:px-8">
-  <div class="max-w-full mx-auto py-5">
+  <div class="max-w-7xl mx-auto py-5">
     
     <!-- Hero Section -->
-<section class="bg-white py-16 lg:flex lg:items-center lg:justify-between">
+<section class="bg-white py-16 lg:flex lg:items-center lg:justify-evenly">
   <div class="text-center lg:text-left lg:max-w-lg lg:p-10">
     <h1 class="text-3xl font-bold text-gray-800 md:text-4xl lg:text-5xl">
       Sobre Nós

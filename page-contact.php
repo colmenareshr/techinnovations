@@ -4,8 +4,9 @@
 <?php get_header(); ?>
 
 <main class="bg-gray-50 py-12">
-  <!-- Hero Section -->
-  <section class="bg-gray-50 py-16 px-6 md:px-12 lg:flex lg:items-center lg:justify-between">
+  <div class="max-w-7xl mx-auto py-5">
+    <!-- Hero Section -->
+  <section class="bg-gray-50 py-16 px-6 md:px-12 lg:flex lg:items-center lg:justify-evenly">
       <div class="text-center lg:text-left lg:max-w-lg">
         <h1 class="text-3xl font-bold text-gray-800 md:text-4xl lg:text-5xl">
           Entre em Contato
@@ -55,3 +56,5 @@
 </main>
 
 <?php get_footer(); ?>
+  </div>
+</main>
