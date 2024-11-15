@@ -11,9 +11,9 @@ Este é um site WordPress da TechInnovations, uma startup fictícia de desenvolv
    - Contact Form 7
    - WP Optimize
    - Secure Custom Fields
-4. Importe o arquivo XML (`techinnovations.xml`) fornecido para obter o conteúdo de amostra (está localizado nos arquivos do tema):
+4. Importe o arquivo XML (`techinnovationswp.xml`) fornecido para obter o conteúdo de amostra (está localizado nos arquivos do tema, pasta inc/demo-import/techinnovationswp.xml):
    - Vá em **Ferramentas > Importar**
-   - Carregue o arquivo `techinnovations.xml`
+   - Carregue o arquivo `techinnovationswp.xml`
 
 
 ## Personalização feita
